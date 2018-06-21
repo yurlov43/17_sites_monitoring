@@ -25,16 +25,12 @@ Required parameters:
 filepath - Path to a file with a list of URLs
 ```
 
-The program displays the URL, status code, expiration date and errors in the console:
+The program displays result of checking in the console:
 
 ```bash
 URL: https://devman.org
-Status code: 200
-Expiration date: 2018-08-28 11:49:42
-
-URL: https://yandex.ru
-Status code: 200
-Expiration date: 2018-09-30 21:00:00
+Good! Status code: 200
+Good! Until the expiry date is more than a month.
 
 URL: http://dsfsdf.ru
 Seems like dns lookup failed.
